@@ -76,13 +76,13 @@ The problem is encoded through one set of variables `vertex_of_color_ID(vertex,c
 
 Basic usage: 
 ```
-clique_cover_.py [-h] [-i INPUT] [-o OUTPUT] [-s SOLVER] [-v {0,1}]
+clique_cover.py [-h] [-i INPUT] [-o OUTPUT] [-s SOLVER] [-v {0,1}]
 ```
 
 Command-line options:
 
 * `-h`, `--help` : Show a help message and exit.
-* `-i INPUT`, `--input INPUT` : The instance file. Default: "input.in".
+* `-i INPUT`, `--input INPUT` : The instance file. Default: "instances/input.in".
 * `-o OUTPUT`, `--output OUTPUT` : Output file for the DIMACS format (i.e. the CNF formula).
 * `-s SOLVER`, `--solver SOLVER` : The SAT solver to be used.
 *  `-v {0,1}`, `--verb {0,1}` :  Verbosity of the SAT solver used.
